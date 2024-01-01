@@ -1,0 +1,85 @@
+:root {
+    --primery: #0bceff;
+    --bg: #ffffff77;
+    --dark: #000;
+    --abu:#54545464;
+  }
+  span{
+    color: var(--primery);
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+
+  body {
+    background-color: var(--dark);
+    color: #fff;
+  }
+  
+  .navbar{
+    display: flex;
+    padding: 1rem ;
+    margin-top: 0.5rem;
+    border: 1px solid #fff;
+    background: 1px var(--primery);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .home{
+      display: flex;
+      margin-top: 0.5rem; 
+      padding-left: 0.5rem;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1rem;
+    }
+    
+    .judul{
+      border-radius: 1rem;
+      background-color: var(--abu);
+      padding: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+}
+    .judul2, .Djudul{
+      border-radius: 1rem;
+      background-color: var(--bg);
+      padding: 1rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      -webkit-border-radius: 1rem;
+      -moz-border-radius: 1rem;
+      -ms-border-radius: 1rem;
+      -o-border-radius: 1rem;
+}
+.judul .tanggal,.judul2 .tanggal,.Dtanggal .Djudul{
+  font-size: x-small;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+  .judul .p ,.judul2 .p,.Djudul .Dp{
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .img{
+    margin: 2rem 0;
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+    top: 100%;
+    right: -100%;
+    height: 100rem;
+    width: 35rem;
+  }
